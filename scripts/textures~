@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameState>
+	<Name>Tutorial</Name>
+
+		<Textures>
+		<Texture>
+			<Name>helloWorld1</Name>
+			<Path>tex/hello_world1.png</Path>
+		</Texture>
+	
+		<Texture>
+			<Name>helloWorld2</Name>
+			<Path>tex/hello_world2.png</Path>
+		</Texture>
+
+		<Texture>
+			<Name>groundTex1</Name>
+			<Path>tex/groundTex1.png</Path>
+		</Texture>
+
+		<Texture>
+			<Name>upperGroundGrass1</Name>
+			<Path>tex/upperGroundGrass1.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>pinkRedDot</Name>
+			<Path>tex/pinkRedDot.png</Path>
+		</Texture>
+
+		<Texture>
+			<Name>upperGroundGrass2</Name>
+			<Path>tex/upperGroundGrass2.png</Path>
+		</Texture>
+
+		<Texture>
+			<Name>animationGrass1</Name>
+			<Path>tex/animationGrass1.png</Path>
+		</Texture>
+
+		<Texture>
+			<Name>flower1</Name>
+			<Path>tex/flower1.png</Path>
+		</Texture>
+
+		<Texture>
+			<Name>bonzaiTree1</Name>
+			<Path>tex/bonzaiTree1.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>water1</Name>
+			<Path>tex/water1.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>animationWater1</Name>
+			<Path>tex/waterfalls1.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>pinkDot</Name>
+			<Path>tex/pinkDot.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>headTut</Name>
+			<Path>tex/head_tut.png</Path>
+		</Texture>
+		<Texture>
+			<Name>torsoTut</Name>
+			<Path>tex/torso_tut.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>legTut</Name>
+			<Path>tex/leg_tut.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>armTut</Name>
+			<Path>tex/arm_tut.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>placeholder_empty</Name>
+			<Path>tex/empty.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>placeholder_pink</Name>
+			<Path>tex/pink.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>handTut</Name>
+			<Path>tex/hand_tut.png</Path>
+		</Texture>
+		
+		<Texture>
+			<Name>feetTut</Name>
+			<Path>tex/feet_tut.png</Path>
+		</Texture>
+		
+		
+	</Textures>
+
+	
+</GameState>

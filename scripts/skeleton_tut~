@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameState>
+	<Name>Tutorial</Name>
+
+
+	<Skeletons>
+		<Skeleton>
+			<Name>normalSkeletonStaying</Name>
+			<AnimTime>5000</AnimTime>
+			<parts>
+			      <part>
+				    <name>head</name>
+				    <position>
+					<time>0</time> <x>0</x ><y>0</y> <z>0</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			       <part>
+				    <name>leftShoulder</name>
+				    <position>
+					<time>0</time> <x>-0.05</x ><y>-0.24</y> <z>0.002</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			      <part>
+				    <name>rightShoulder</name>
+				    <position>
+					<time>0</time> <x>0.260</x ><y>-0.24</y> <z>-0.002</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			      
+			      <part>
+				    <name>torso</name>
+				    <position>
+					<time>0</time> <x>0.0</x ><y>-0.25</y> <z>0</z> <r>0</r>
+				    </position>
+				    
+				    <position>
+					<time>100</time> <x>0.0</x ><y>-0.24</y> <z>0</z> <r>0</r>
+				    </position>
+				    
+				    <position>
+					<time>200</time> <x>0.0</x ><y>-0.23</y> <z>0</z> <r>0</r>
+				    </position>
+				    
+				    <position>
+					<time>1000</time> <x>0.0</x ><y>-0.24</y> <z>0</z> <r>0</r>
+				    </position>
+				    
+				    <position>
+					<time>1100</time> <x>0.0</x ><y>-0.25</y> <z>0</z> <r>0</r>
+				    </position>
+			      </part>
+
+			      <part>
+				    <name>leftArm</name>
+				    <position>
+					<time>0</time> <x>-0.07</x ><y>-0.25</y> <z>0.001</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			      <part>
+				    <name>rightArm</name>
+				    <position>
+					<time>0</time> <x>0.265</x ><y>-0.25</y> <z>-0.001</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			       <part>
+				    <name>leftHand</name>
+				    <position>
+					<time>0</time> <x>-0.07</x ><y>-0.55</y> <z>0.001</z>  <r>0</r>
+				    </position>
+			      </part>
+			      
+			      <part>
+				    <name>rightHand</name>
+				    <position>
+					<time>0</time> <x>0.274</x ><y>-0.55</y> <z>-0.001</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			       <part>
+				    <name>leftLeg</name>
+				    <position>
+					<time>0</time> <x>0.015</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+			      </part>
+			      
+			      <part>
+				    <name>rightLeg</name>
+				    <position>
+					<time>0</time> <x>0.15</x><y>-0.625</y> <z>-0.001</z> <r>-0.01</r>
+				    </position>
+			      </part>
+			      
+			       <part>
+				    <name>leftFeet</name>
+				    <position>
+					<time>0</time> <x>0.015</x ><y>-.95</y> <z>0.001</z> <r>0.011</r>
+				    </position>
+			      </part>
+			      
+			      <part>
+				    <name>rightFeet</name>
+				    <position>
+					<time>0</time> <x>0.15</x ><y>-0.95</y> <z>-0.001</z> <r>-0.011</r>
+				    </position> 
+			      </part>
+			</parts>
+		</Skeleton>
+	
+	
+		<Skeleton>
+			<Name>normalSkeletonMoving</Name>
+			<AnimTime>2500</AnimTime>
+			<parts>
+			      <part>
+				    <name>head</name>
+				    <position>
+					<time>0</time> <x>0</x ><y>0</y> <z>0</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			       <part>
+				    <name>leftShoulder</name>
+				    <position>
+					<time>0</time> <x>-0.05</x ><y>-0.24</y> <z>0.002</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			      <part>
+				    <name>rightShoulder</name>
+				    <position>
+					<time>0</time> <x>0.260</x ><y>-0.24</y> <z>-0.002</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			      
+			      <part>
+				    <name>torso</name>
+				    <position>
+					<time>0</time> <x>0.0</x ><y>-0.25</y> <z>0</z> <r>0</r>
+				    </position>
+			      </part>
+
+			      <part>
+				    <name>leftArm</name>
+				    <position>
+					<time>0</time> <x>-0.07</x ><y>-0.25</y> <z>0.001</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			      <part>
+				    <name>rightArm</name>
+				    <position>
+					<time>0</time> <x>0.265</x ><y>-0.25</y> <z>-0.001</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			       <part>
+				    <name>leftHand</name>
+				    <position>
+					<time>0</time> <x>-0.07</x ><y>-0.55</y> <z>0.001</z>  <r>0</r>
+				    </position>
+			      </part>
+			      
+			      <part>
+				    <name>rightHand</name>
+				    <position>
+					<time>0</time> <x>0.274</x ><y>-0.55</y> <z>-0.001</z> <r>0</r>
+				    </position>
+			      </part>
+			      
+			       <part>
+				    <name>leftLeg</name>
+				    <position>
+					<time>0</time> <x>0.015</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>100</time> <x>0.025</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>200</time> <x>0.035</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>300</time> <x>0.045</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>400</time> <x>0.055</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>500</time> <x>0.065</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>600</time> <x>0.075</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>700</time> <x>0.085</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>800</time> <x>0.095</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>900</time> <x>0.105</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1000</time> <x>0.115</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1100</time> <x>0.115</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1200</time> <x>0.115</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1300</time> <x>0.105</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1400</time> <x>0.095</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1500</time> <x>0.085</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1600</time> <x>0.075</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1700</time> <x>0.065</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1800</time> <x>0.055</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1900</time> <x>0.045</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>2000</time> <x>0.035</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>2100</time> <x>0.025</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>2200</time> <x>0.015</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>2300</time> <x>0.015</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>2400</time> <x>0.015</x><y>-0.625</y> <z>0.001</z> <r>0.01</r>
+				    </position>
+			      </part>
+			      
+			      <part>
+				    <name>rightLeg</name>
+				    <position>
+					<time>0</time> <x>0.15</x><y>-0.625</y> <z>-0.001</z> <r>-0.01</r>
+				    </position>
+				    
+				    <position>
+					<time>100</time> <x>0.105</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>200</time> <x>0.095</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>300</time> <x>0.085</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>400</time> <x>0.075</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>500</time> <x>0.065</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>600</time> <x>0.055</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>700</time> <x>0.045</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>800</time> <x>0.035</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>900</time> <x>0.025</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1000</time> <x>0.015</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1100</time> <x>0.015</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1200</time> <x>0.015</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1300</time> <x>0.025</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1400</time> <x>0.035</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1500</time> <x>0.045</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1600</time> <x>0.055</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1700</time> <x>0.065</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1800</time> <x>0.075</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>1900</time> <x>0.085</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>2000</time> <x>0.095</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>2100</time> <x>0.105</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>2200</time> <x>0.115</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>2300</time> <x>0.115</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+				    <position>
+					<time>2400</time> <x>0.115</x><y>-0.625</y> <z>-0.001</z> <r>0.01</r>
+				    </position>
+			      </part>
+			      
+			       <part>
+				    <name>leftFeet</name>
+				    <position>
+					<time>0</time> <x>0.015</x ><y>-.95</y> <z>0.001</z> <r>0.011</r>
+				    </position>
+			      </part>
+			      
+			      <part>
+				    <name>rightFeet</name>
+				    <position>
+					<time>0</time> <x>0.15</x ><y>-0.95</y> <z>-0.001</z> <r>-0.011</r>
+				    </position> 
+			      </part>
+			</parts>
+		</Skeleton>
+	</Skeletons>
+	
+</GameState>

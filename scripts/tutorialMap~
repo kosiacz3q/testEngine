@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameState>
+	<Name>Tutorial</Name>
+
+	<Scenes>
+		<Scene>
+			<Name>Scene1</Name>
+			<CameraStartPosition>
+				<x>0</x> <y>2.0</y> <z>2.3</z>
+			</CameraStartPosition>
+			
+			<CameraLookPoint>
+				<x>0</x> <y>1.3</y> <z>0</z>
+			</CameraLookPoint>
+			
+			<CameraScale>1.7</CameraScale>
+
+			<Objects>
+				<Object>			
+					<Name>plainTexture_helloWorld1</Name>
+					<Type>PlainTexture</Type>
+					<Position>
+						<x>-2.5</x ><y>2.3</y> <z>-0.7</z>
+					</Position>
+					<Visible>0</Visible>
+					<Dimensions>
+						<x>3</x ><y>1.5</y> 
+					</Dimensions>
+
+					<TextureID>helloWorld1</TextureID>
+				</Object>
+
+				<Object>			
+					<Name>plainTexture_helloWorld2</Name>
+					<Type>PlainTexture</Type>
+					<Position>
+						<x>2</x ><y>2</y> <z>-0.5</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>2</x ><y>1</y> 
+					</Dimensions>
+
+					<TextureID>helloWorld2</TextureID>
+				</Object>
+
+				<Object>			
+					<Name>plainTexture_flower1</Name>
+					<Type>PlainTexture</Type>
+					<Position>
+						<x>3</x ><y>1</y> <z>-0.4</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>1</x ><y>1</y> 
+					</Dimensions>
+
+					<TextureID>flower1</TextureID>
+				</Object>
+				
+				<Object>			
+					<Name>water1</Name>
+					<Type>PlainTexture</Type>
+					<Position>
+						<x>-7</x ><y>-0.5</y> <z>-1</z>
+					</Position>
+					<Visible>1</Visible>
+					
+					<Rotation>
+						<x>0</x>
+						<y>-90</y>
+						<z>0</z>
+					</Rotation>
+					
+					<Dimensions>
+						<x>6</x ><y>2</y> 
+					</Dimensions>
+
+					<TextureID>water1</TextureID>
+				</Object>
+				
+				<Object>			
+					<Name>water2</Name>
+					<Type>PlainTexture</Type>
+					<Position>
+						<x>-1</x ><y>-0.5</y> <z>-1</z>
+					</Position>
+					<Visible>1</Visible>
+					
+					<Rotation>
+						<x>0</x>
+						<y>-90</y>
+						<z>0</z>
+					</Rotation>
+					
+					<Dimensions>
+						<x>6</x ><y>2</y> 
+					</Dimensions>
+
+					<TextureID>water1</TextureID>
+				</Object>
+
+				<Object>			
+					<Name>plainTexture_bonzaiTree1</Name>
+					<Type>PlainTexture</Type>
+					<Position>
+						<x>-3</x ><y>2</y> <z>-0.4</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>2</x ><y>2</y> 
+					</Dimensions>
+
+					<TextureID>bonzaiTree1</TextureID>
+				</Object>
+				
+				<Object>			
+					<Name>groundGrassGravel1</Name>
+					<Type>TerrainBlock</Type>
+					<Position>
+						<x>-6</x ><y>0</y> <z>0</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>5</x ><y>1</y> 
+					</Dimensions>
+
+					<brickModelID>terrainBrick1</brickModelID>
+					<leftTextureID>groundTex1</leftTextureID>
+					<frontTextureID>groundTex1</frontTextureID>
+					<rightTectureID>groundTex1</rightTectureID>
+					<upperTextureID>upperGroundGrass1</upperTextureID>
+				</Object>	
+				
+				<Object>			
+					<Name>groundGrassGravel2</Name>
+					<Type>TerrainBlock</Type>
+					<Position>
+						<x>-1</x ><y>0</y> <z>0</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>5</x ><y>1</y> 
+					</Dimensions>
+
+					<brickModelID>terrainBrick1</brickModelID>
+					<leftTextureID>groundTex1</leftTextureID>
+					<frontTextureID>groundTex1</frontTextureID>
+					<rightTectureID>groundTex1</rightTectureID>
+					<upperTextureID>upperGroundGrass1</upperTextureID>
+				</Object>
+				
+				<Object>			
+					<Name>grassAnimation0</Name>
+					<Type>PlainAnimation</Type>
+					<Position>
+						<x>-3.5</x ><y>0.4</y> <z>-0.6</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>2</x ><y>0.5</y> 
+					</Dimensions>
+
+					<textureID>animationGrass1</textureID>
+					<duration_total>1000</duration_total>
+					<duration_perFrame>250</duration_perFrame>
+					<fixedStart>500</fixedStart>
+				</Object>
+		
+				<Object>			
+					<Name>grassAnimation1</Name>
+					<Type>PlainAnimation</Type>
+					<Position>
+						<x>-2</x ><y>0.4</y> <z>-0.3</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>2</x ><y>0.5</y> 
+					</Dimensions>
+
+					<textureID>animationGrass1</textureID>
+					<duration_total>1000</duration_total>
+					<duration_perFrame>250</duration_perFrame>
+					<fixedStart>0</fixedStart>
+				</Object>
+			
+				<Object>			
+					<Name>grassAnimation2</Name>
+					<Type>PlainAnimation</Type>
+					<Position>
+						<x>-0.7</x ><y>0.4</y> <z>-0.5</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>2</x ><y>0.5</y> 
+					</Dimensions>
+
+					<textureID>animationGrass1</textureID>
+					<duration_total>1000</duration_total>
+					<duration_perFrame>250</duration_perFrame>
+					<fixedStart>300</fixedStart>
+				</Object>
+
+				<Object>			
+					<Name>grassAnimation3</Name>
+					<Type>PlainAnimation</Type>
+					<Position>
+						<x>0.5</x ><y>0.4</y> <z>-0.3</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>2</x ><y>0.5</y> 
+					</Dimensions>
+
+					<textureID>animationGrass1</textureID>
+					<duration_total>1000</duration_total>
+					<duration_perFrame>250</duration_perFrame>
+					<fixedStart>700</fixedStart>
+				</Object>
+
+				<Object>			
+					<Name>grassAnimation4</Name>
+					<Type>PlainAnimation</Type>
+					<Position>
+						<x>2</x ><y>0.4</y> <z>-0.6</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>2</x ><y>0.5</y> 
+					</Dimensions>
+
+					<textureID>animationGrass1</textureID>
+					<duration_total>1000</duration_total>
+					<duration_perFrame>250</duration_perFrame>
+					<fixedStart>700</fixedStart>
+				</Object>
+
+				<Object>			
+					<Name>grassAnimation4</Name>
+					<Type>PlainAnimation</Type>
+					<Position>
+						<x>2.0</x ><y>0.4</y> <z>-0.2</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>2</x ><y>0.5</y> 
+					</Dimensions>
+
+					<textureID>animationGrass1</textureID>
+					<duration_total>1000</duration_total>
+					<duration_perFrame>250</duration_perFrame>
+					<fixedStart>700</fixedStart>
+				</Object>
+
+				<Object>			
+					<Name>grassAnimation5</Name>
+					<Type>PlainAnimation</Type>
+					<Position>
+						<x>2.2</x ><y>0.4</y> <z>-0.5</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>2</x ><y>0.5</y> 
+					</Dimensions>
+
+					<textureID>animationGrass1</textureID>
+					<duration_total>1000</duration_total>
+					<duration_perFrame>250</duration_perFrame>
+					<fixedStart>700</fixedStart>
+				</Object>
+
+				<Object>			
+					<Name>grassAnimation6</Name>
+					<Type>PlainAnimation</Type>
+					<Position>
+						<x>-4.4</x ><y>0.4</y> <z>-0.3</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>2</x ><y>0.5</y> 
+					</Dimensions>
+
+					<textureID>animationGrass1</textureID>
+					<duration_total>1000</duration_total>
+					<duration_perFrame>250</duration_perFrame>
+					<fixedStart>700</fixedStart>
+				</Object>
+
+				<Object>			
+					<Name>staticLightSource1</Name>
+					<Type>LightSource</Type>
+					<Position>
+						<x>-4.5</x ><y>0.0</y> <z>1</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>0</x ><y>0</y> 
+					</Dimensions>
+					
+					<isSpotLight>0</isSpotLight>
+					
+					<ambient>
+						<p1>1.0</p1>
+						<p2>1.0</p2>
+						<p3>1.0</p3>
+						<p4>1.0</p4>
+					</ambient>
+					
+					<diffuse>
+						<p1>1.0</p1>
+						<p2>1.0</p2>
+						<p3>1.0</p3>
+						<p4>1.0</p4>
+					</diffuse>
+					
+					<specular>
+						<p1>1.0</p1>
+						<p2>1.0</p2>
+						<p3>1.0</p3>
+						<p4>1.0</p4>
+					</specular>
+					
+					<spotDirection>
+						<p1>0.0</p1>
+						<p2>0.0</p2>
+						<p3>1.0</p3>
+			
+					</spotDirection>
+					
+					<spotExponent>
+						<p1>0.0</p1>
+					</spotExponent>
+					
+					<spotCutoff>
+						<p1>140.0</p1>
+					</spotCutoff>
+				</Object>
+				
+				<Object>			
+					<Name>player1</Name>
+					<Type>Doll</Type>
+					<Position>
+						<x>0.4</x ><y>1</y> <z>-0.35</z>
+					</Position>
+					<Visible>1</Visible>
+					<Dimensions>
+						<x>1</x ><y>0.5</y> 
+					</Dimensions>
+					<defaultSkeletonID>normalSkeletonMoving</defaultSkeletonID>
+					<bodyParts>
+						<part>
+						      <name>head</name>
+						      <textureID>headTut</textureID>
+						      <Dimensions>
+							      <x>0.25</x ><y>0.25</y> 
+						      </Dimensions>
+						</part>
+						
+						<part>
+						      <name>leftShoulder</name>
+						      <textureID>placeholder_empty</textureID>
+						      <Dimensions>
+							      <x>0.1</x ><y>0.05</y> 
+						      </Dimensions>
+						</part>
+						
+						<part>
+						      <name>rightShoulder</name>
+						      <textureID>placeholder_empty</textureID>
+						      <Dimensions>
+							      <x>0.1</x ><y>0.05</y> 
+						      </Dimensions>
+						</part>
+						
+						<part>
+						      <name>leftArm</name>
+						      <textureID>armTut</textureID>
+						      <Dimensions>
+							      <x>0.1</x ><y>0.31</y> 
+						      </Dimensions>
+						</part>
+						
+						<part>
+						      <name>rightArm</name>
+						       <textureID>armTut</textureID>
+						      <Dimensions>
+							      <x>0.1</x ><y>0.31</y> 
+						      </Dimensions>
+						</part>
+						
+						<part>
+						      <name>torso</name>
+						      <textureID>torsoTut</textureID>
+						      <Dimensions>
+							      <x>0.275</x ><y>0.375</y> 
+						      </Dimensions>
+						</part>
+						
+						<part>
+						      <name>leftLeg</name>
+						      <textureID>legTut</textureID>
+						      <Dimensions>
+							      <x>0.1</x ><y>0.4</y> 
+						      </Dimensions>    
+						</part>
+						
+						<part>
+						      <name>rightLeg</name>
+						      <textureID>legTut</textureID>
+						      <Dimensions>
+							      <x>0.1</x ><y>0.4</y> 
+						      </Dimensions>    
+						</part>
+						
+						<part>
+						      <name>leftFeet</name>
+						      <textureID>feetTut</textureID>
+						      <Dimensions>
+							      <x>0.15</x><y>0.08</y> 
+						      </Dimensions>
+						</part>
+						
+						<part>
+						      <name>rightFeet</name>
+						      <textureID>feetTut</textureID>
+						      <Dimensions>
+							      <x>0.15</x ><y>0.08</y> 
+						      </Dimensions>
+						</part>
+						
+						<part>
+						      <name>rightHand</name>
+						      <textureID>handTut</textureID>
+						      <Dimensions>
+							      <x>0.1</x ><y>0.1</y> 
+						      </Dimensions>
+						</part>
+						
+						<part>
+						      <name>leftHand</name>
+						      <textureID>handTut</textureID>
+						      <Dimensions>
+							      <x>0.1</x ><y>0.1</y> 
+						      </Dimensions>
+						</part>
+					</bodyParts>
+				</Object>
+				
+			</Objects>
+		</Scene>
+
+		<Scene>
+			<Name>emptyScene</Name>
+			  
+			<CameraStartPosition>
+				<x>0</x> <y>0</y> <z>3</z>
+			</CameraStartPosition>
+			<Objects>
+			</Objects>
+		</Scene>
+	</Scenes>
+	
+
+	<Models>
+		<Model>
+			<Name>terrainBrick1</Name>
+			<_1> <x>0</x> <y>0</y> <z>0</z> </_1> 
+			<_2> <x>5</x> <y>0</y> <z>0</z> </_2> 
+			<_3> <x>5</x> <y>-1</y> <z>0</z> </_3> 
+			<_4> <x>0</x> <y>-1</y> <z>0</z> </_4> 
+			<_5> <x>0</x> <y>0</y> <z>-1</z> </_5> 
+			<_6> <x>0</x> <y>-1</y> <z>-1</z> </_6> 
+			<_7> <x>5</x> <y>0</y> <z>-1</z> </_7> 
+			<_8> <x>5</x> <y>-1</y> <z>-1</z> </_8> 
+		</Model>
+	</Models>
+	
+
+</GameState>
+
+
